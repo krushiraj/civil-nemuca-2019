@@ -1,0 +1,1464 @@
+<!DOCTYPE html>
+<html class="background-100-e">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Acumen Civil</title>
+		<meta name="description" content="Onepage Parallax Site" />
+		<meta name="keywords" content="onepage, parallax" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="bower_components/fontawesome/css/font-awesome.min.css" />
+		<link rel="stylesheet" href="bower_components/animate.css/animate.min.css" />
+		<link rel="stylesheet" href="bower_components/minicolors/jquery.minicolors.css" />
+		<link rel="stylesheet" href="bower_components/slick.js/slick/slick.css" />
+		<link rel="stylesheet" href="bower_components/slick.js/slick/slick-theme.css" />
+		<link rel="stylesheet" href="bootstrap/dist/css/bootstrap-custom.min.css" />
+		<link rel="stylesheet" href="lib/linecons/style.css" />
+		<link rel="stylesheet" href="styles/style.min.css" />
+		<link rel="stylesheet" href="theme-custom.css" />
+		<link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+		<style>
+			#pixie {
+				z-index:10;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			#logo {
+				margin-left:-5vw;
+			}
+			@media screen and (max-width:40em) {
+				#logo{
+					margin-left:0;
+					margin-top:20vh;
+				}
+				#container {
+					margin-left:-5vw;
+				}
+			}
+		</style>
+	</head>
+	<body class="state1 background-100-e">
+		<!--div class="ext-nav background-95-h page-transition">
+			<div class="view half-height">
+				<img alt class="bg static" src="images/placeholders/1920x1200-2.jpg" />
+				<div class="content no-top-padding no-bottom-padding  full-height">
+					<div class="container-fluid  full-height">
+						<div class="row full-height">
+							<a href="blog.html" class="col-md-6 colors-a background-95-a full-height">
+								<div>
+									<span class="side-label">All The Latest</span>
+									<span class="side-title">Blog</span>
+								</div>
+							</a>
+							<a href="help.html" class="col-md-6 colors-f background-95-f full-height">
+								<div>
+									<span class="side-label">Documentation</span>
+									<span class="side-title">Help</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid  half-height">
+				<div class="row full-height">
+					<a href="#how-we-work" class="col-md-4 colors-g background-solid full-height border-bottom border-lite">
+						<div>
+							<span class="side-label">Awesome</span>
+							<span class="side-title">How We Work</span>
+						</div>
+					</a>
+					<a href="#who-we-are" class="col-md-4 colors-g background-solid full-height border-bottom border-left border-lite">
+						<div>
+							<span class="side-label">We Are Designers</span>
+							<span class="side-title">Who We Are</span>
+						</div>
+					</a>
+					<a href="#numbers" class="col-md-4 colors-g background-solid full-height border-bottom border-left border-lite">
+						<div>
+							<span class="side-label">Some Facts</span>
+							<span class="side-title">Our Numbers</span>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div-->
+		<div class="page-border bottom colors-e background-solid"><a href="#top" class="hover-effect">To <span class="highlight">Top</span></a></div>
+		<div class="page-border left colors-e background-solid">
+			<ul>
+				<li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="https://instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+			</ul>
+		</div>
+		<!-- BEGIN: Top menu -->
+		<div class="page-border right colors-e background-solid"></div>
+		<nav class="navbar navbar-default navbar-fixed-top page-transition colors-e background-solid" role="navigation" id="top-nav">
+			<div class="container">
+				<div class="navbar-header">
+					<a class="menu-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" href="#"><span></span></a>
+					<a class="navbar-brand" href="">ACUMEN<span class="highlight">CIVIL</span></a>
+				</div>
+				<div class="collapse navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#home" class="hover-effect">Home</a></li>
+						<li><a href="#about" class="hover-effect">About</a></li>
+						<li><a href="#sponsors" class="hover-effect">Sponsors</a></li>
+						<li><a href="#team" class="hover-effect">Team</a></li>
+						<li><a href="#events" class="hover-effect">Events</a></li>
+						<li><a href="#register" class="hover-effect">Registration</a></li>
+						<li><a href="#work" class="hover-effect">Gallery</a></li>
+						<li><a href="#contact" class="hover-effect">Contact</a></li>
+						<!--li class="hidden-xs"><a class="menu-toggle ext-nav-toggle" data-target=".ext-nav" href="#"><span></span></a></li-->
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- END: Top menu -->
+		<ul id="dot-scroll" class="colors-e background-solid"></ul>
+		<div class="overlay-window gallery-overlay colors-g background-95-g" data-overlay-zoom="#work .content">
+			<div class="overlay-control background-90-b">
+				<a class="previos" href="#"></a>
+				<a class="next" href="#"></a>
+				<a class="cross" href="#"></a>
+			</div>
+			<div class="overlay-view"></div>
+			<ul class="loader">
+				<li class="background-highlight-e"></li>
+				<li class="background-highlight-e"></li>
+				<li class="background-highlight-e"></li>
+			</ul>
+		</div>
+		<div class="overlay-window map-overlay colors-h background-75-h">
+			<div class="overlay-control background-90-g">
+				<a class="cross" href="#"></a>
+			</div>
+			<div class="overlay-view">
+				<div class="map-canvas" data-latitude="42.487606" data-longitude="-71.115661" data-zoom="14">
+					<div class="map-marker" data-latitude="42.487606" data-longitude="-71.115661" data-text="Our awesome location"></div>
+					<div class="map-marker" data-latitude="42.485100" data-longitude="-71.113256" data-text="Our sales office"></div>
+				</div>
+			</div>
+		</div>
+		<div class="overlay-window credits-overlay colors-g background-95-g">
+			<div class="overlay-control background-90-b">
+				<a class="cross" href="#"></a>
+			</div>
+			<div class="overlay-view">
+				<div class="content-container">
+					<h3>Credits</h3>
+					<ul>
+						<li>
+							Photos by:
+							<ul>
+								<li><a target="_blank" href="https://www.flickr.com/photos/katya_alagich/">Katya Alagich</a>, <a target="_blank" href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0 License</a></li>
+								<li><a target="_blank" href="https://www.flickr.com/photos/65047661@N00/">Jim Lukach</a>, <a target="_blank" href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0 License</a></li>
+								<li><a target="_blank" href="https://www.flickr.com/photos/johanl/">Johan Larsson</a>, <a target="_blank" href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0 License</a></li>
+								<li><a target="_blank" href="https://www.flickr.com/photos/johny/">John Kraus</a>, <a target="_blank" href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0 License</a></li>
+								<li><a target="_blank" href="https://www.flickr.com/photos/geishaboy500/">THOR</a>, <a target="_blank" href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0 License</a></li>
+								<li><a target="_blank" href="https://www.flickr.com/photos/stf-o/">stephane</a>, <a target="_blank" href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0 License</a></li>
+								<li><a target="_blank" href="http://www.pexels.com/">Pexels</a>, <a target="_blank" href="http://www.pexels.com/photo-license/">CC0 License</a></li>
+								<li><a target="_blank" href="https://stocksnap.io/">Stocksnap</a>, <a target="_blank" href="https://stocksnap.io/license">CC0 License</a></li>
+								<li><a target="_blank" href="http://picjumbo.com/">Picjumbo</a>, <a target="_blank" href="http://picjumbo.com/about-author/">Picjumbo License</a></li>
+							</ul>
+						</li>
+						<li>
+							Video by:
+							<ul>
+								<li><a target="_blank" href="http://mazwai.com/">Mazwai</a>, <a target="_blank" href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0 License</a></li>
+							</ul>
+						</li>
+						<li>
+							Icons by:
+							<ul>
+								<li><a target="_blank" href="http://designmodo.com/">Designmodoh</a>, <a target="_blank" href="http://designmodo.com/linecons-free/">License</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="gate colors-e background-solid">
+			<div class="gate-bar background-heading-e"></div>
+			<ul class="loader">
+				<li class="background-heading-e"></li>
+				<li class="background-heading-e"></li>
+				<li class="background-heading-e"></li>
+			</ul>
+		</div>
+		<!-- BEGIN: Page content -->
+		<section id="home">
+			<div class="view">
+				<img alt class="bg" src="images/background1a.png"/><img alt class="bg" src="images/background1a.png" />
+				<div class="content home-suzi full-size colors-d background-0">
+					<div id="container" class="container" style="text-align:center">
+						<img id="logo" style="height:40vw;width:auto;" src="images/logo.png"/>
+						<p class="text-center"><a href="#services" class="button background-60-d heading-d border-hard">View our events</a>
+						<a href="#work" class="button background-60-f heading-f border-hard">Register for events</a></p>
+						<canvas id="pixie"></canvas>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="about">
+			<div class="view">
+				<div class="content colors-e background-solid">
+					<div class="container">
+						<h2>About</h2>
+						<p class="lead"><span class="highlight"></span> The pace of progress in the field of Science &amp; Technology in this
+							millennium has overshadowed the speed of Technological
+							changes in the past decades. In this millennium, this pace would
+							intensify and may even reach a state beyond our imagination.
+							Technical Symposiums like Acumen are an effort to catch up
+							with the pace of technological innovation.
+							Acumen triggered off in the year 1996. It was the first of its kind
+							in Hyderabad and had an overwhelming response. It paved way
+							to Acumen &#39;99, which was a great success, too. Around 180
+							papers from various parts of the country were received and
+							students from various universities and institutes like IIT, NIT etc.
+							have participated in this symposium.
+							ACUMEN is a one-day festival. The event seeks to achieve
+							communication of innovative ideas that promote the cause of the
+							technological advantage among the students, and also keep
+							them abreast with the latest advances in their respective fields.
+							It also opens a window to the participants to interact with people
+							from different backgrounds and upgrade their knowledge.
+							The theme &quot;YOUTH-TECHNOLOGY-FUTURE&quot; asserts the fact
+							that the future of technology lies in the hands of the youth.
+							This is the time for the students to explore &amp; exhibit their talents
+							in the areas related to academic routine.
+						</p>
+						<h2>Acumnen CIVIL 2019</h2>
+						<p class="header-details" style="font-size:30px"><span class="highlight">theme: </span></p>
+						<p class="header-details" style="font-size:30px"><em><strong>Biomimicry: Innovation inspired by nature.</strong></em></p>
+						<p class="lead"><span class="highlight"></span> Humans are clever, but without intending to, we have created massive
+							sustainability problems for future generations. Fortunately, solutions to these
+							global challenges are all around us.
+							Biomimicry is an approach to innovation that seeks sustainable solutions to
+							human challenges by emulating nature’s time-tested patterns and strategies.
+							The goal is to create products, processes, and policies—new ways of
+							living—that are well-adapted to life on earth over the long haul.
+							The core idea is that nature has already solved many of the problems we are
+							grappling with. Animals, plants, and microbes are the consummate engineers.
+							After billions of years of research and development, failures are fossils, and
+							what surrounds us is the secret to survival.
+						</p>
+							<p class="lead" style="font-size:20px">“I think the biggest innovations of the 21st century will be at the intersection
+							of biology and technology. A new era is beginning.”</p>
+							<p class="lead"><span class="highlight">-Steve Jobs</span></p>
+
+							<p class="lead" style="font-size:20px">“When we look at what is truly sustainable, the only real model that has
+							worked over long periods of time is the natural world.”</p>
+							<p class="lead"><span class="highlight">-Janine Benyus</span></p>
+
+							<p class="lead">You could look at nature as being like a catalog of products, and all of those
+							have benefited from a 3.8 billion year research and development period. And
+							given that level of investment, it makes sense to use it.
+							</p>
+						<!--div class="row">
+							<div class="col-md-4">
+								<div class="col-icon">
+									<i class="li_bulb"></i>
+								</div>
+								<div class="col-content">
+									<h4>Heading  <span class="highlight">One</span></h4>
+									<p>Content 1</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="col-icon">
+									<i class="li_t-shirt"></i>
+								</div>
+								<div class="col-content">
+									<h4>Heading <span class="highlight">Two</span></h4>
+									<p>Content 2</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="col-icon">
+									<i class="li_megaphone"></i>
+								</div>
+								<div class="col-content">
+									<h4>Heading <span class="highlight">Three</span></h4>
+									<p>Content 3</p>
+								</div>
+							</div>
+						</div-->
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="sponsors">
+			<div class="view" id="how-we-work">
+				<img alt class="bg" src="images/background1a.png" /><img alt class="bg" src="images/background1a.png" />
+				<div class="content colors-h">
+					<div class="container">
+						<h3><span class="highlight">OUR</span> SPONSORS</h3>
+						<div class="row">
+							<div class="col-md-6 col-md-offset-3">
+								<p class="text-center">Content about SPONSORS</p>
+							</div>
+						</div>
+						<div class="row icon-set">
+							<div class="col-md-3 text-center">
+								<p>
+									<img src="images/placeholders/380x573-0.jpg" class="li_like circle scroll-in-animation background-20 heading" data-animation="fadeInUp"/>
+								</p>
+								<p class="title"><span class="underline-text">Sponsor 1</span></p>
+								
+							</div>
+							<div class="col-md-3 text-center">
+								<p>
+									<img src="images/placeholders/380x573-0.jpg" class="li_like circle scroll-in-animation background-20 heading" data-animation="fadeInUp"/>
+								</p>
+								<p class="title"><span class="underline-text">Sponsor 2</span></p>
+								
+							</div>
+							<div class="col-md-3 text-center">
+								<p>
+									<img src="images/placeholders/380x573-0.jpg" class="li_like circle scroll-in-animation background-20 heading" data-animation="fadeInUp"/>
+								</p>
+								<p class="title"><span class="underline-text">Sponsor 3</span></p>
+								
+							</div>
+							<div class="col-md-3 text-center">
+								<p>
+									<img src="images/placeholders/380x573-0.jpg" class="li_like circle scroll-in-animation background-20 heading" data-animation="fadeInUp"/>
+								</p>
+								<p class="title"><span class="underline-text">Sponsor 4</span></p>
+								
+							</div>
+						</div>
+						<div class="row icon-set">
+							<div class="col-md-3 text-center">
+								<p>
+									<img src="images/placeholders/380x573-0.jpg" class="li_like circle scroll-in-animation background-20 heading" data-animation="fadeInUp"/>
+								</p>
+								<p class="title"><span class="underline-text">Sponsor 1</span></p>
+								
+							</div>
+							<div class="col-md-3 text-center">
+								<p>
+									<img src="images/placeholders/380x573-0.jpg" class="li_like circle scroll-in-animation background-20 heading" data-animation="fadeInUp"/>
+								</p>
+								<p class="title"><span class="underline-text">Sponsor 2</span></p>
+								
+							</div>
+							<div class="col-md-3 text-center">
+								<p>
+									<img src="images/placeholders/380x573-0.jpg" class="li_like circle scroll-in-animation background-20 heading" data-animation="fadeInUp"/>
+								</p>
+								<p class="title"><span class="underline-text">Sponsor 3</span></p>
+								
+							</div>
+							<div class="col-md-3 text-center">
+								<p>
+									<img src="images/placeholders/380x573-0.jpg" class="li_like circle scroll-in-animation background-20 heading" data-animation="fadeInUp"/>
+								</p>
+								<p class="title"><span class="underline-text">Sponsor 4</span></p>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="team">
+			<div class="view">
+				<div class="content colors-e background-solid">
+					<div class="container">
+						<h2>Team</h2>
+						<p class="header-details"><span class="highlight">Who </span>We Are</p>
+						<p class="lead"><strong class="highlight"></strong> Description about the team </p>
+						<div class="row">
+							<div class="col-md-3 col-sm-6  col-xs-6">
+								<div class="hover-overlay">
+									<img alt="Mike Johnson" src="images/placeholders/380x573-1.jpg" title="Mike Johnson" class="fluid-width">
+									
+								</div>
+								<div class="caption">
+									<p>
+										<span class="title">Mike Johnson</span>
+										<br/>
+										<span class="highlight">CEO &amp; Founder</span>
+									</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6  col-xs-6">
+								<div class="hover-overlay">
+									<img alt="Jessica Specter" src="images/placeholders/380x573-1.jpg" title="Jessica Specter" class="fluid-width">
+									
+								</div>
+								<div class="caption">
+									<p>
+										<span class="title">Jessica Specter</span>
+										<br/>
+										<span class="highlight">Creative Director</span>
+									</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6  col-xs-6">
+								<div class="hover-overlay">
+									<img alt="Lynda Smith" src="images/placeholders/380x573-1.jpg" title="Lynda Smith" class="fluid-width">
+									
+								</div>
+								<div class="caption">
+									<p>
+										<span class="title">Andrew Miles</span>
+										<br/>
+										<span class="highlight">Developer</span>
+									</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6  col-xs-6">
+								<div class="hover-overlay">
+									<img alt="Lynda Smith" src="images/placeholders/380x573-1.jpg" title="Lynda Smith" class="fluid-width">
+									
+								</div>
+								<div class="caption">
+									<p>
+										<span class="title">Lynda Smith</span>
+										<br/>
+										<span class="highlight">Programmer</span>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-3 col-sm-6  col-xs-6">
+								<div class="hover-overlay">
+									<img alt="Mike Johnson" src="images/placeholders/380x573-1.jpg" title="Mike Johnson" class="fluid-width">
+									
+								</div>
+								<div class="caption">
+									<p>
+										<span class="title">Mike Johnson</span>
+										<br/>
+										<span class="highlight">CEO &amp; Founder</span>
+									</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6  col-xs-6">
+								<div class="hover-overlay">
+									<img alt="Jessica Specter" src="images/placeholders/380x573-1.jpg" title="Jessica Specter" class="fluid-width">
+									
+								</div>
+								<div class="caption">
+									<p>
+										<span class="title">Jessica Specter</span>
+										<br/>
+										<span class="highlight">Creative Director</span>
+									</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6  col-xs-6">
+								<div class="hover-overlay">
+									<img alt="Lynda Smith" src="images/placeholders/380x573-1.jpg" title="Lynda Smith" class="fluid-width">
+									
+								</div>
+								<div class="caption">
+									<p>
+										<span class="title">Andrew Miles</span>
+										<br/>
+										<span class="highlight">Developer</span>
+									</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6  col-xs-6">
+								<div class="hover-overlay">
+									<img alt="Lynda Smith" src="images/placeholders/380x573-1.jpg" title="Lynda Smith" class="fluid-width">
+									
+								</div>
+								<div class="caption">
+									<p>
+										<span class="title">Lynda Smith</span>
+										<br/>
+										<span class="highlight">Programmer</span>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-3 col-sm-6  col-xs-6">
+								<div class="hover-overlay">
+									<img alt="Mike Johnson" src="images/placeholders/380x573-1.jpg" title="Mike Johnson" class="fluid-width">
+									
+								</div>
+								<div class="caption">
+									<p>
+										<span class="title">Mike Johnson</span>
+										<br/>
+										<span class="highlight">CEO &amp; Founder</span>
+									</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6  col-xs-6">
+								<div class="hover-overlay">
+									<img alt="Jessica Specter" src="images/placeholders/380x573-1.jpg" title="Jessica Specter" class="fluid-width">
+									
+								</div>
+								<div class="caption">
+									<p>
+										<span class="title">Jessica Specter</span>
+										<br/>
+										<span class="highlight">Creative Director</span>
+									</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6  col-xs-6">
+								<div class="hover-overlay">
+									<img alt="Lynda Smith" src="images/placeholders/380x573-1.jpg" title="Lynda Smith" class="fluid-width">
+									
+								</div>
+								<div class="caption">
+									<p>
+										<span class="title">Andrew Miles</span>
+										<br/>
+										<span class="highlight">Developer</span>
+									</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6  col-xs-6">
+								<div class="hover-overlay">
+									<img alt="Lynda Smith" src="images/placeholders/380x573-1.jpg" title="Lynda Smith" class="fluid-width">
+									
+								</div>
+								<div class="caption">
+									<p>
+										<span class="title">Lynda Smith</span>
+										<br/>
+										<span class="highlight">Programmer</span>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-3 col-sm-6  col-xs-6">
+								<div class="hover-overlay">
+									<img alt="Mike Johnson" src="images/placeholders/380x573-1.jpg" title="Mike Johnson" class="fluid-width">
+									
+								</div>
+								<div class="caption">
+									<p>
+										<span class="title">Mike Johnson</span>
+										<br/>
+										<span class="highlight">CEO &amp; Founder</span>
+									</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6  col-xs-6">
+								<div class="hover-overlay">
+									<img alt="Jessica Specter" src="images/placeholders/380x573-1.jpg" title="Jessica Specter" class="fluid-width">
+									
+								</div>
+								<div class="caption">
+									<p>
+										<span class="title">Jessica Specter</span>
+										<br/>
+										<span class="highlight">Creative Director</span>
+									</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6  col-xs-6">
+								<div class="hover-overlay">
+									<img alt="Lynda Smith" src="images/placeholders/380x573-1.jpg" title="Lynda Smith" class="fluid-width">
+									
+								</div>
+								<div class="caption">
+									<p>
+										<span class="title">Andrew Miles</span>
+										<br/>
+										<span class="highlight">Developer</span>
+									</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6  col-xs-6">
+								<div class="hover-overlay">
+									<img alt="Lynda Smith" src="images/placeholders/380x573-1.jpg" title="Lynda Smith" class="fluid-width">
+									
+								</div>
+								<div class="caption">
+									<p>
+										<span class="title">Lynda Smith</span>
+										<br/>
+										<span class="highlight">Programmer</span>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-3 col-sm-6  col-xs-6">
+								<div class="hover-overlay">
+									<img alt="Mike Johnson" src="images/placeholders/380x573-1.jpg" title="Mike Johnson" class="fluid-width">
+									
+								</div>
+								<div class="caption">
+									<p>
+										<span class="title">Mike Johnson</span>
+										<br/>
+										<span class="highlight">CEO &amp; Founder</span>
+									</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6  col-xs-6">
+								<div class="hover-overlay">
+									<img alt="Jessica Specter" src="images/placeholders/380x573-1.jpg" title="Jessica Specter" class="fluid-width">
+									
+								</div>
+								<div class="caption">
+									<p>
+										<span class="title">Jessica Specter</span>
+										<br/>
+										<span class="highlight">Creative Director</span>
+									</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6  col-xs-6">
+								<div class="hover-overlay">
+									<img alt="Lynda Smith" src="images/placeholders/380x573-1.jpg" title="Lynda Smith" class="fluid-width">
+									
+								</div>
+								<div class="caption">
+									<p>
+										<span class="title">Andrew Miles</span>
+										<br/>
+										<span class="highlight">Developer</span>
+									</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6  col-xs-6">
+								<div class="hover-overlay">
+									<img alt="Lynda Smith" src="images/placeholders/380x573-1.jpg" title="Lynda Smith" class="fluid-width">
+									
+								</div>
+								<div class="caption">
+									<p>
+										<span class="title">Lynda Smith</span>
+										<br/>
+										<span class="highlight">Programmer</span>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-3 col-sm-6  col-xs-6">
+								<div class="hover-overlay">
+									<img alt="Mike Johnson" src="images/placeholders/380x573-1.jpg" title="Mike Johnson" class="fluid-width">
+									
+								</div>
+								<div class="caption">
+									<p>
+										<span class="title">Mike Johnson</span>
+										<br/>
+										<span class="highlight">CEO &amp; Founder</span>
+									</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6  col-xs-6">
+								<div class="hover-overlay">
+									<img alt="Jessica Specter" src="images/placeholders/380x573-1.jpg" title="Jessica Specter" class="fluid-width">
+									
+								</div>
+								<div class="caption">
+									<p>
+										<span class="title">Jessica Specter</span>
+										<br/>
+										<span class="highlight">Creative Director</span>
+									</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6  col-xs-6">
+								<div class="hover-overlay">
+									<img alt="Lynda Smith" src="images/placeholders/380x573-1.jpg" title="Lynda Smith" class="fluid-width">
+									
+								</div>
+								<div class="caption">
+									<p>
+										<span class="title">Andrew Miles</span>
+										<br/>
+										<span class="highlight">Developer</span>
+									</p>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6  col-xs-6">
+								<div class="hover-overlay">
+									<img alt="Lynda Smith" src="images/placeholders/380x573-1.jpg" title="Lynda Smith" class="fluid-width">
+									
+								</div>
+								<div class="caption">
+									<p>
+										<span class="title">Lynda Smith</span>
+										<br/>
+										<span class="highlight">Programmer</span>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--  -->
+		</section>
+		<section id="events">
+			<div class="view">
+				<div class="content colors-e background-solid">
+					<div class="container">
+						<h2>Events</h2>
+						<p class="header-details"><span class="highlight">Here are the </span> events rules and judgement</p>
+						<div class="row">
+							<div class="col-md-3 top-line">
+								<br>
+								<img style="height:20vw;width:19vw" src="images/placeholders/380x573-1.jpg"/>
+								<h4>Paper Presentation</h4>
+								<h5>Rules</h5>
+								<p class="highlight">
+									<ul>
+										<li>TOPIC- Trending issues,problems and solutions in Civil Engineering.</li>
+										<li>Maximum 2  members per team.</li>
+										<li>Last date to submit Abstract by 8 March 2019.</li>
+										<li>Final date of submission of PPT by 12 March 2019.</li>
+									</ul>
+								</p>
+								<h5>Judgement</h5>
+								<p>
+									<ul>
+									<li>Based on presentation skills , clarity of concepts.</li>
+									<li>Able to give valid answers for the queries.</li>
+									</ul>
+
+								</p>
+								
+							</div>
+							<div class="col-md-3 top-line">
+									
+								<br>
+								<img style="height:20vw;width:19vw" src="images/placeholders/380x573-1.jpg"/>
+								<h4>Model Presentation</h4>
+								<h5>Rules</h5>
+								<p class="highlight">
+									<ul>
+										<li>Theme of the model should be submitted by 8 March 2019.</li>
+										<li>The model might be a working or static.</li>
+										<li>Maximum of 3 members per team.</li>
+									</ul>
+								</p>
+								<h5>Judgement</h5>
+								<p>
+									<ul>
+									<li>Clear idea about the THEME.</li>
+									<li>Able to explain precisely.</li>
+									<li>Give valid explanations for questions asked by the judges.</li>
+									</ul>
+
+								</p>
+								
+							</div>
+							<div class="col-md-3 top-line">
+									<br>
+								<img style="height:20vw;width:19vw" src="images/placeholders/380x573-1.jpg"/>
+								<h4>Quiz up</h4>
+								<h5>Rules</h5>
+								<p class="highlight">
+									<ul>
+										<li>Pen and paper type.</li>
+										<li>Individual event.</li>
+										<li>It is two round event.1) General civil questions.2) Technical civil questions.</li>
+										<li>Participants who clear the first round are eligible for the next round.</li>
+									</ul>
+								</p>
+								<h5>Judgement</h5>
+								<p>
+									<ul>
+									<li>Based on their performance</li>
+									</ul>
+								</p>
+								
+							</div>
+							<div class="col-md-3 top-line">
+									<br>
+								<img style="height:20vw;width:19vw" src="images/placeholders/380x573-1.jpg"/>
+								<h4>Surwarriors</h4>
+								<h5>Rules</h5>
+								<p class="highlight">
+									<ul>
+										<li>It is a two round event.1)Questions related to surveying.2)Need to survey the given piece of land using surveying instruments.</li>
+										<li>Participants who clear the first round are eligible for the next round.</li>
+										<li>Maximum of 2 members per team.</li>
+									</ul>
+								</p>
+								<h5>Judgement</h5>
+								<p>
+									<ul>
+									<li>Based on knowledge on subject and accuracy.</li>
+									</ul>
+								</p>
+								
+							</div>
+						</div>
+
+						<div class="row">
+								<div class="col-md-3 top-line">
+									<br>
+									<img style="height:20vw;width:19vw" src="images/placeholders/380x573-1.jpg"/>
+									<h4>The mighty cube</h4>
+									<h5>Rules</h5>
+									<p class="highlight">
+										<ul>
+											<li>Dimensions are released a week before the ACUMEN (7 March 2019).</li>
+											<li>Participants should show their mix design.</li>
+											<li>Maximum of 3 members per team.</li>
+										</ul>
+									</p>
+									<h5>Judgement</h5>
+									<p>
+										<ul>
+										<li>Based on maximum compressive strength.</li>
+										</ul>
+									</p>
+									
+								</div>
+								<div class="col-md-3 top-line">
+										
+									<br>
+									<img style="height:20vw;width:19vw" src="images/placeholders/380x573-1.jpg"/>
+									<h4>The mighty cube</h4>
+									<h5>Rules</h5>
+									<p class="highlight">
+										<ul>
+											<li>Dimensions are released a week before the ACUMEN (7 March 2019).</li>
+											<li>Participants should show their mix design.</li>
+											<li>Maximum of 3 members per team.</li>
+										</ul>
+									</p>
+									<h5>Judgement</h5>
+									<p>
+										<ul>
+										<li>Based on maximum compressive strength.</li>
+										</ul>
+									</p>
+									
+								</div>
+								<div class="col-md-3 top-line">
+										<br>
+									<img style="height:20vw;width:19vw" src="images/placeholders/380x573-1.jpg"/>
+									<h4>biomimic</h4>
+									<h5>Rules</h5>
+									<p class="highlight">
+										<ul>
+											<li>Prototype of the structure should be built with ingredients like clay etc.</li>
+											<li>A tender for the materials is conducted.</li>
+											<li>Maximum of 3 members per team.</li>
+										</ul>
+									</p>
+									<h5>Judgement</h5>
+									<p>
+										<ul>
+										<li>Structure constructed with less worth and more aesthetic beauty will be rewarded.</li>
+										<li>Participants should be able to give valid explanations.</li>
+										</ul>
+									</p>
+									
+								</div>
+								<div class="col-md-3 top-line">
+										<br>
+									<img style="height:20vw;width:19vw" src="images/placeholders/380x573-1.jpg"/>
+									<h4>revit omania</h4>
+									<h5>Rules</h5>
+									<p class="highlight">
+										<ul>
+											<li>CAD drawings are recreated to REVIT .</li>
+											<li>Participants have to devolop most appealing 3D view using REVIT tools in a limited time provided.</li>
+											<li>It is an individual event.</li>
+										</ul>
+									</p>
+									<h5>Judgement</h5>
+									<p>
+										<ul>
+										<li>Based on the outlook of the model.</li>
+										</ul>
+									</p>
+									
+								</div>
+							</div>
+
+							<div class="row">
+									<div class="col-md-3 top-line">
+										<br>
+										<img style="height:20vw;width:19vw" src="images/placeholders/380x573-1.jpg"/>
+										<h4>CADovation</h4>
+										<h5>Rules</h5>
+										<p class="highlight">
+											<ul>
+												<li>Line diagram is provided.</li>
+												<li>Draw plan, elevation and side view in CAD for the given line diagram in given time.</li>
+												<li>It is an individual event.</li>
+											</ul>
+										</p>
+										<h5>Judgement</h5>
+										<p>
+											<ul>
+											<li>The chance of winning is more for the participants  who complete the task quicker.</li>
+											</ul>
+										</p>
+										
+									</div>
+									<div class="col-md-3 top-line">
+											
+										<br>
+										<img style="height:20vw;width:19vw" src="images/placeholders/380x573-1.jpg"/>
+										<h4>crosswords</h4>
+										<h5>Rules</h5>
+										<p class="highlight">
+											<ul>
+												<li>Pen and paper type.</li>
+												<li>It is a two round event.</li>
+												<li>Basic crossword rules.</li>
+												<li>It is an individual event.</li>
+											</ul>
+										</p>
+										<h5>Judgement</h5>
+										<p>
+											<ul>
+											<li>Participant who acquire more marks will win.</li>
+											</ul>
+										</p>
+										
+									</div>
+									<div class="col-md-3 top-line">
+											<br>
+										<img style="height:20vw;width:19vw" src="images/placeholders/380x573-1.jpg"/>
+										<h4>great thinker</h4>
+										<h5>Rules</h5>
+										<p class="highlight">
+											<ul>
+												<li>Pen and paper type.</li>
+												<li>Need to write solution for the real world problems.</li>
+												<li>It is an individual event.</li>
+											</ul>
+										</p>
+										<h5>Judgement</h5>
+										<p>
+											<ul>
+											<li>Based on writing skills.</li>
+											<li>Effective solutions.</li>
+											</ul>
+										</p>
+										
+									</div>
+									<div class="col-md-3 top-line">
+											<br>
+										<img style="height:20vw;width:19vw" src="images/placeholders/380x573-1.jpg"/>
+										<h4>capture the nature</h4>
+										<h5>Rules</h5>
+										<p class="highlight">
+											<ul>
+												<li>Need to click pictures related to nature in the college premises.</li>
+												<li>It is an individual event.</li>
+											</ul>
+										</p>
+										<h5>Judgement</h5>
+										<p>
+											<ul>
+												<li>The participant who clicks the most delightful picture will be rewarded.</li>
+											</ul>
+										</p>
+										
+									</div>
+								</div>
+
+								<div class="row">
+										<div class="col-md-3 top-line">
+											<br>
+											<img style="height:20vw;width:19vw" src="images/placeholders/380x573-1.jpg"/>
+											<h4>caption it</h4>
+											<h5>Rules</h5>
+											<p class="highlight">
+												<ul>
+													<li>Participants should give a caption for the projected images.</li>
+													<li>It is an individual event.</li>
+												</ul>
+											</p>
+											<h5>Judgement</h5>
+											<p>
+												<ul>
+													<li>Participants who uses catchy lines or sentences will be rewarded.</li>
+												</ul>
+											</p>
+											
+										</div>
+										<div class="col-md-3 top-line">
+												
+											<br>
+											<img style="height:20vw;width:19vw" src="images/placeholders/380x573-1.jpg"/>
+											<h4>OLYMPIONIXE</h4>
+											<h5>Rules</h5>
+											<p class="highlight">
+												<ul>
+													<li>A detailed description along with visual features of an Olympic stadium will be provided. The participant must use his idea and design the given site as asked in the description.</li>
+													<li>A group event of 2 members.</li>
+													<li>A3 or A4 size sheets will be provided at the venue along with appropriate stationary.</li>
+													<li>Time limit of 45mins per session.</li>
+												</ul>
+											</p>
+											<h5>Judgement</h5>
+											<p>
+												<ul>
+													<li>Concept.</li>
+													<li>Utilizing the space .</li>
+													<li>Explaination.</li>
+													<li>Use of colors.</li>
+												</ul>
+											</p>
+										</div>
+										<div class="col-md-3 top-line">
+												<br>
+												<img style="height:20vw;width:19vw" src="images/placeholders/380x573-1.jpg"/>
+											<h4>URBANSCAPER</h4>
+											<h5>Rules</h5>
+											<p class="highlight">
+												<ul>
+													<li>This competition revolves around solving the problems involved in future cities. A detailed description about the scenario will be presented and the participant is required to solve the issue through a sketch.</li>
+													<li>A group event of 2 members.</li>
+													<li>A3 or A4 size sheets will be provided at the venue along with appropriate stationary.</li>
+													<li>Time limit of 45mins per session.</li>
+												</ul>
+											</p>
+											<h5>Judgement</h5>
+											<p>
+												<ul>
+													<li>Concept and shape.</li>
+													<li>Utilizing the space .</li>
+													<li>Explaination and justification.</li>
+													<li>Use of colors.</li>
+													<li>Understanding the question and  presentation.</li>
+												</ul>
+											</p>
+											
+										</div>
+									</div>
+						
+					</div>
+				</div>
+			</div>
+
+			<div class="view">
+				<img alt class="bg" src="images/placeholders/1920x1200-0.jpg" /><img alt class="bg" src="images/placeholders/1920x1200-1.jpg" /><img alt class="bg" src="images/placeholders/1920x1200-2.jpg" />
+				<div class="content half-size colors-h">
+					<div class="container">
+						<div class="show-list slogan">
+							<div class="show-item">We Are Civil - 1</div>
+							<div class="show-item">We Are Civil - 1s</div>
+							<div class="show-item">We Are Civil - 1s</div>
+							<div class="show-item">We Are Civil - 1</div>
+							<div class="show-item">We Are Civil - 1</div>
+						</div>
+						<div class="separator"></div>
+						<p class="text-center big-font">
+							<em>Acumen Civil 2019</em>
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="register">
+			<div class="view">
+				<div class="content colors-e background-solid">
+					<div class="container" style="text-align:center">
+						<h2>Event <span class="highlight">Registration</span></h2>
+						<p class="header-details"><span class="highlight">get yourself registered for</span> extravaganza</p>
+						<p class="highlight">Click on link below to register for evernts</p>
+						<a style="font-size:20px" class="header-details" target="blank" href="https://docs.google.com/forms/d/e/1FAIpQLSe99oRFNxRCLUvivngCyWUCBB30cQC1ku6VkjncL47i9dT_dg/viewform">Register yourself here.</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="work">
+			<div class="view">
+				<div class="content no-bottom-padding colors-e background-solid">
+					<div class="container">
+						<h2>Our <span class="highlight">Gallery</span></h2>
+						<p class="header-details"><span class="highlight">Some clicks from</span> Acumen Civil 2018</p>
+						<p class="lead">Celebrating the tech fest</p>
+					</div>
+					<div class="gallery colors-h background-solid" data-default-group="all" data-overlay=".gallery-overlay">
+						<div class="container-fluid">
+							<div class="filter">
+								<ul class="nav nav-pills text-center">
+									<li><a class="hover-effect" data-group="all" href="#">All</a></li>
+									<li><a class="hover-effect" data-group="web" href="#">Structure</a></li>
+									<li><a class="hover-effect" data-group="video" href="#">Video</a></li>
+									<li><a class="hover-effect" data-group="photography" href="#">Event CLicks</a></li>
+									<li><a class="hover-effect" data-group="design" href="#">Random clicks</a> </li>
+								</ul>
+							</div>
+							<div class="row">
+								<div class="grid">
+									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["design"]'>
+										<a href="#!portfolio-item-1.html" class="hover-overlay">
+											<img alt="Project 1" src="images/placeholders/500x400-0.jpg" />
+											<div class="overlay background-90-a">
+												<div class="hidden-xs">
+													<p class="title heading-a">Image</p>
+													<p class="text-center heading-a"><strong>Excepteur sint lorem ipsum dolor sit amet consectetur.</strong></p>
+													<p class="text-center"><i class="fa fa-picture-o heading-a"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "web", "video"]'>
+										<a href="#!portfolio-item-2.html" class="hover-overlay">
+											<img alt="Project 2" src="images/placeholders/500x400-1.jpg" />
+											<div class="overlay background-90-a">
+												<div class="hidden-xs">
+													<p class="title heading-a">YouTube Video</p>
+													<p class="text-center heading-a"><strong>Excepteur sint lorem ipsum dolor sit amet consectetur.</strong></p>
+													<p class="text-center"><i class="fa fa-youtube-square heading-a"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "design"]'>
+										<a href="#!portfolio-item-3.html" class="hover-overlay">
+											<img alt="Project 3" src="images/placeholders/500x400-2.jpg" />
+											<div class="overlay background-90-a">
+												<div class="hidden-xs">
+													<p class="title heading-a">Slider</p>
+													<p class="text-center heading-a"><strong>Excepteur sint lorem ipsum dolor sit amet consectetur.</strong></p>
+													<p class="text-center"><i class="fa fa-th heading-a"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "web", "video"]'>
+										<a href="#!portfolio-item-4.html" class="hover-overlay">
+											<img alt="Project 4" src="images/placeholders/500x400-0.jpg" />
+											<div class="overlay background-90-a">
+												<div class="hidden-xs">
+													<p class="title heading-a">Vimeo Video</p>
+													<p class="text-center heading-a"><strong>Excepteur sint lorem ipsum dolor sit amet consectetur.</strong></p>
+													<p class="text-center"><i class="fa fa-vimeo-square heading-a"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "design"]'>
+										<a href="#!portfolio-item-5.html" class="hover-overlay">
+											<img alt="Project 5" src="images/placeholders/500x400-1.jpg" />
+											<div class="overlay background-90-a">
+												<div class="hidden-xs">
+													<p class="title heading-a">Slider</p>
+													<p class="text-center heading-a"><strong>Excepteur sint lorem ipsum dolor sit amet consectetur.</strong></p>
+													<p class="text-center"><i class="fa fa-th heading-a"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "web", "design"]'>
+										<a href="#!portfolio-item-6.html" class="hover-overlay">
+											<img alt="Project 6" src="images/placeholders/500x400-2.jpg" />
+											<div class="overlay background-90-a">
+												<div class="hidden-xs">
+													<p class="title heading-a">Image</p>
+													<p class="text-center heading-a"><strong>Excepteur sint lorem ipsum dolor sit amet consectetur.</strong></p>
+													<p class="text-center"><i class="fa fa-picture-o heading-a"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["design", "video", "web"]'>
+										<a href="#!portfolio-item-7.html" class="hover-overlay">
+											<img alt="Project 7" src="images/placeholders/500x400-0.jpg" />
+											<div class="overlay background-90-a">
+												<div class="hidden-xs">
+													<p class="title heading-a">Vimeo Video</p>
+													<p class="text-center heading-a"><strong>Excepteur sint lorem ipsum dolor sit amet consectetur.</strong></p>
+													<p class="text-center"><i class="fa fa-vimeo-square heading-a"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["web"]'>
+										<a href="#!portfolio-item-8.html" class="hover-overlay">
+											<img alt="Project 8" src="images/placeholders/500x400-1.jpg" />
+											<div class="overlay background-90-a">
+												<div class="hidden-xs">
+													<p class="title heading-a">Image</p>
+													<p class="text-center heading-a"><strong>Excepteur sint lorem ipsum dolor sit amet consectetur.</strong></p>
+													<p class="text-center"><i class="fa fa-picture-o heading-a"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "design", "video", "web"]'>
+										<a href="#!portfolio-item-9.html" class="hover-overlay">
+											<img alt="Project 9" src="images/placeholders/500x400-2.jpg" />
+											<div class="overlay background-90-a">
+												<div class="hidden-xs">
+													<p class="title heading-a">YouTube Video</p>
+													<p class="text-center heading-a"><strong>Excepteur sint lorem ipsum dolor sit amet consectetur.</strong></p>
+													<p class="text-center"><i class="fa fa-youtube-square heading-a"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "design"]'>
+										<a href="#!portfolio-item-10.html" class="hover-overlay">
+											<img alt="Project 10" src="images/placeholders/500x400-0.jpg" />
+											<div class="overlay background-90-a">
+												<div class="hidden-xs">
+													<p class="title heading-a">Vimeo Video</p>
+													<p class="text-center heading-a"><strong>Excepteur sint lorem ipsum dolor sit amet consectetur.</strong></p>
+													<p class="text-center"><i class="fa fa-vimeo-square heading-a"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["photography", "web"]'>
+										<a href="#!portfolio-item-11.html" class="hover-overlay">
+											<img alt="Project 11" src="images/placeholders/500x400-1.jpg" />
+											<div class="overlay background-90-a">
+												<div class="hidden-xs">
+													<p class="title heading-a">Image</p>
+													<p class="text-center heading-a"><strong>Excepteur sint lorem ipsum dolor sit amet consectetur.</strong></p>
+													<p class="text-center"><i class="fa fa-picture-o heading-a"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>
+									<div class="item col-md-3 col-sm-4 col-xs-6" data-groups='["web", "design"]'>
+										<a href="#!portfolio-item-12.html" class="hover-overlay">
+											<img alt="Project 12" src="images/placeholders/500x400-2.jpg" />
+											<div class="overlay background-90-a">
+												<div class="hidden-xs">
+													<p class="title heading-a">Slider</p>
+													<p class="text-center heading-a"><strong>Excepteur sint lorem ipsum dolor sit amet consectetur.</strong></p>
+													<p class="text-center"><i class="fa fa-th heading-a"></i></p>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="contact">
+			<div class="view">
+				<img alt class="bg" src="images/placeholders/1920x1200-2.jpg" /><img alt class="bg" src="images/placeholders/1920x1200-0.jpg" /><img alt class="bg" src="images/placeholders/1920x1200-1.jpg" />
+				<div class="content full-size colors-h">
+					<div class="container">
+						<h2>Contact</h2>
+						<p class="header-details">Keep In Touch</p>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="text-right scroll-in-animation" data-animation="fadeInLeft">
+									<p class="big-font uppercase">
+										Tel: <strong class="highlight">+Your number</strong>
+									</p>
+									<p class="big-font uppercase">
+										Visweswarayya Block
+										<br/> Vasavi College of Engneering.
+									</p>
+									<p class="big-font">
+										<b>
+									<a href="mailto:acumencivil2019@gmail.com">acumencivil2019@gmail.com</a><br/>
+								</b>
+									</p>
+									<p class="big-font">
+										<a target="_blank" href="https://twitter.com/"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x heading"></i><i class="fa fa-twitter fa-stack-1x text-background"></i></span></a>
+										<a target="_blank" href="https://www.facebook.com/"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x heading"></i><i class="fa fa-facebook fa-stack-1x text-background"></i></span></a>
+										<a target="_blank" href="http://www.youtube.com/"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x heading"></i><i class="fa fa-youtube fa-stack-1x text-background"></i></span></a>
+									</p>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="text-left scroll-in-animation" data-animation="fadeInRight">
+									<p class="big-font uppercase">
+										Tel: <strong class="highlight">+Your number</strong>
+									</p>
+									<p class="big-font uppercase">
+										Visweswarayya Block
+										<br/> Vasavi College of Engneering.
+									</p>
+									<p class="big-font">
+										<b>
+									<a href="mailto:acumencivil2019@gmail.com">acumencivil2019@gmail.com</a><br/>
+								</b>
+									</p>
+									<p class="big-font">
+										<a target="_blank" href="https://twitter.com/"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x heading"></i><i class="fa fa-twitter fa-stack-1x text-background"></i></span></a>
+										<a target="_blank" href="https://www.facebook.com/"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x heading"></i><i class="fa fa-facebook fa-stack-1x text-background"></i></span></a>
+										<a target="_blank" href="http://www.youtube.com/"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x heading"></i><i class="fa fa-youtube fa-stack-1x text-background"></i></span></a>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="text-center">
+							<a class="map-open button background-lite-b border-heading-b heading-b" data-map-overlay=".map-overlay" href="#">Locate Us on Map</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END: Page content -->
+		<!-- BEGIN: Footer -->
+		<footer class="colors-g page-transition non-preloading">
+			<div class="bottom text-center background-5-b">
+				© 2019 All Rights Reserved. Acumen Civil
+			</div>
+		</footer>
+		<!-- END: Footer -->
+		<script>
+		if (typeof(atob) == "undefined")
+		{
+			document.write('<script src="lib/stringencoders-v3.10.3/javascript/base64.js"><\/script>');
+			var atob = function(x)
+			{
+				return base64.decode(x);
+			}
+		}
+		</script>
+		<script src="bower_components/less.js/dist/less.min.js"></script>
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="lib/tween/tween.min.js"></script>
+		<script src="bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="bower_components/modernizr/modernizr.js"></script>
+		<script src="lib/SmoothScroll-1.2.1/SmoothScroll.js"></script>
+		<script src="bower_components/jquery-cookie/jquery.cookie.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+		<script src="bower_components/jqBootstrapValidation/dist/jqBootstrapValidation-1.3.7.min.js"></script>
+		<script src="bower_components/minicolors/jquery.minicolors.min.js"></script>
+		<script src="bower_components/slick.js/slick/slick.min.js"></script>
+		<script src="bower_components/shufflejs/dist/jquery.shuffle.min.js"></script>
+		<script src="bower_components/textillate/assets/jquery.lettering.js"></script>
+		<script src="bower_components/textillate/assets/jquery.fittext.js"></script>
+		<script src="bower_components/textillate/jquery.textillate.js"></script>
+		<script src="lib/prism/prism.js"></script>
+		<script>
+		(function()
+		{
+			var disableMobileAnimations = true;
+			var isWin = navigator.appVersion.indexOf("Win") !== -1;
+			if (isWin) $('html').addClass('win');
+			var ua = navigator.userAgent.toLowerCase();
+			var isChrome = ua.indexOf('chrome') > -1;
+			if (isChrome) $('html').addClass('chrome');
+			var isAndroidBrowser4_3minus = ((ua.indexOf('mozilla/5.0') > -1 && ua.indexOf('android ') > -1 && ua.indexOf('applewebkit') > -1) && !(ua.indexOf('chrome') > -1));
+			if (isAndroidBrowser4_3minus) $('html').addClass('android-browser-4_3minus');
+			var isSafari = !isChrome && ua.indexOf('safari') !== -1;
+			if (isSafari) $('html').addClass('safari');
+			var isMobile = Modernizr.touch;
+			if (isMobile)
+			{
+				$('html').addClass('mobile');
+				if (disableMobileAnimations) $('html').addClass('poor-browser');
+			}
+			else
+			{
+				$('html').addClass('non-mobile');
+			}
+			if (isWin && isSafari)
+			{
+				$('html').addClass('flat-animation');
+			}
+		})();
+		</script>
+		<script src="scripts/script-bundle.js"></script>
+		<script>
+		var WIDTH;
+		var HEIGHT;
+		var canvas;
+		var con;
+		var g;
+		var pxs = new Array();
+		var rint = 50;
+
+		$(document).ready(function(){
+		WIDTH = window.innerWidth;
+		HEIGHT = window.innerHeight;
+			$('#container').width(WIDTH).height(HEIGHT);
+			canvas = document.getElementById('pixie');
+			$(canvas).attr('width', WIDTH).attr('height',HEIGHT);
+			con = canvas.getContext('2d');
+			for(var i = 0; i < 100; i++) {
+				pxs[i] = new Circle();
+				pxs[i].reset();
+			}
+			setInterval(draw,rint);
+			setInterval(draw,rint);
+
+		});
+
+		function draw() {
+			con.clearRect(0,0,WIDTH,HEIGHT);
+			for(var i = 0; i < pxs.length; i++) {
+				pxs[i].fade();
+				pxs[i].move();
+				pxs[i].draw();
+			}
+		}
+
+		function Circle() {
+			this.s = {ttl:8000, xmax:5, ymax:2, rmax:10, rt:1, xdef:960, ydef:540, xdrift:4, ydrift: 4, random:true, blink:true};
+
+			this.reset = function() {
+				this.x = (this.s.random ? WIDTH*Math.random() : this.s.xdef);
+				this.y = (this.s.random ? HEIGHT*Math.random() : this.s.ydef);
+				this.r = ((this.s.rmax-1)*Math.random()) + 1;
+				this.dx = (Math.random()*this.s.xmax) * (Math.random() < .5 ? -1 : 1);
+				this.dy = (Math.random()*this.s.ymax) * (Math.random() < .5 ? -1 : 1);
+				this.hl = (this.s.ttl/rint)*(this.r/this.s.rmax);
+				this.rt = Math.random()*this.hl;
+				this.s.rt = Math.random()+1;
+				this.stop = Math.random()*.2+.4;
+				this.s.xdrift *= Math.random() * (Math.random() < .5 ? -1 : 1);
+				this.s.ydrift *= Math.random() * (Math.random() < .5 ? -1 : 1);
+			}
+
+			this.fade = function() {
+				this.rt += this.s.rt;
+			}
+
+			this.draw = function() {
+				if(this.s.blink && (this.rt <= 0 || this.rt >= this.hl)) this.s.rt = this.s.rt*-1;
+				else if(this.rt >= this.hl) this.reset();
+				var newo = 1-(this.rt/this.hl);
+				con.beginPath();
+				con.arc(this.x,this.y,this.r,0,Math.PI*2,true);
+				con.closePath();
+				var cr = this.r*newo;
+				g = con.createRadialGradient(this.x,this.y,0,this.x,this.y,(cr <= 0 ? 1 : cr));
+				g.addColorStop(0.0, 'rgba(238,180,28,'+newo+')');
+				g.addColorStop(this.stop, 'rgba(238,180,28,'+(newo*.2)+')');
+				g.addColorStop(1.0, 'rgba(238,180,28,0)');
+				con.fillStyle = g;
+				con.fill();
+			}
+
+			this.move = function() {
+				this.x += (this.rt/this.hl)*this.dx;
+				this.y += (this.rt/this.hl)*this.dy;
+				if(this.x > WIDTH || this.x < 0) this.dx *= -1;
+				if(this.y > HEIGHT || this.y < 0) this.dy *= -1;
+			}
+
+			this.getX = function() { return this.x; }
+			this.getY = function() { return this.y; }
+		}
+		if (Function('/*@cc_on return document.documentMode===9@*/')())
+		{
+			$('html').addClass('ie9');
+		}
+		if (Function('/*@cc_on return document.documentMode===10@*/')())
+		{
+			$('html').addClass('ie10');
+		}
+		if (!!navigator.userAgent.match(/Trident.*rv\:11\./))
+		{
+			$('html').addClass('ie11');
+		}
+		</script>
+	</body>
+</html>
