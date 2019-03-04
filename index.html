@@ -26,6 +26,7 @@
 				position: absolute;
 				top: 0;
 				left: 0;
+				pointer-events: none;
 			}
 			#logo {
 				margin-left:-5vw;
@@ -201,9 +202,11 @@
 				<div class="content home-suzi full-size colors-d background-0">
 					<div id="container" class="container" style="text-align:center">
 						<img id="logo" style="height:40vw;width:auto;" src="images/logo.png"/>
-						<p class="text-center"><a href="#services" class="button background-60-d heading-d border-hard">View our events</a>
-						<a href="#work" class="button background-60-f heading-f border-hard">Register for events</a></p>
+						
 						<canvas id="pixie"></canvas>
+
+						<p class="text-center"><a style="z-index:20;" href="#events" class="button background-60-d heading-d border-hard">View our events</a>
+						<a style="z-index:20;" href="#work" class="button background-60-f heading-f border-hard">Register for events</a></p>
 					</div>
 				</div>
 			</div>
@@ -381,7 +384,7 @@
 						<div class="row">
 							<div class="col-md-3 col-sm-6  col-xs-6">
 								<div class="hover-overlay">
-									<img alt="Mike Johnson" src="images/placeholders/380x573-1.jpg" title="Mike Johnson" class="fluid-width">
+									<img alt="Mike Johnson" style="height:30vw; width:30vw" src="images/placeholders/380x573-1.jpg" title="Mike Johnson" class="fluid-width team">
 									
 								</div>
 								<div class="caption">
